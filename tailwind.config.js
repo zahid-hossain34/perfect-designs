@@ -9,9 +9,12 @@ export default {
         oswald: ["Oswald", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
         "lucida-calligraphy": ["Lucida Unicode Calligraphy", "sans-serif"],
+        "anton-sc": ["Anton SC", "sans-serif"],
+        "base-neue": ["BaseNeue", "sans-serif"],
       },
       colors: {
         orange: {
+          logo: "#F1A74E",
           xl: "#F4880A",
           lg: "#F08F1D",
           base: "#F4A950",
