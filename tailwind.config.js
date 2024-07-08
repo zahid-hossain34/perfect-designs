@@ -11,6 +11,8 @@ export default {
         "lucida-calligraphy": ["Lucida Unicode Calligraphy", "sans-serif"],
         "anton-sc": ["Anton SC", "sans-serif"],
         "base-neue": ["BaseNeue", "sans-serif"],
+        humane: ["Humane", "sans-serif"],
+        gilroy: ["Gilroy-Bold", "sans-serif"],
       },
       colors: {
         orange: {
