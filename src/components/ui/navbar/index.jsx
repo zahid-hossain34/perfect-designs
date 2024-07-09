@@ -9,8 +9,6 @@ import NavItem from "./navitem";
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState("#home");
 
-  console.log("activeLink: ", activeLink);
-
   return (
     <Wrapper className="py-[.8%] text-sm sm:text-base md:text-lg flex items-center justify-between">
       <div className="w-[50%]">
@@ -21,7 +19,7 @@ const Navbar = () => {
         />
       </div>
 
-      <ul className="hidden w-[50%] 2xl:w-[40%] lg:flex justify-between items-center text-sm xl:text-base font-medium font-oswald tracking-wider">
+      <ul className="hidden w-[50%] 2xl:w-[40%] md:flex justify-between items-center text-sm xl:text-base font-medium font-oswald tracking-wider">
         <NavItem
           activeLink={activeLink}
           setActiveLink={setActiveLink}
@@ -59,7 +57,7 @@ const Navbar = () => {
         />
       </ul>
 
-      <GrMenu className="lg:hidden text-2xl" />
+      <GrMenu className="md:hidden text-2xl" />
     </Wrapper>
   );
 };
