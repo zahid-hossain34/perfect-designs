@@ -57,7 +57,7 @@ const Navbar = () => {
         />
       </ul>
 
-      <GrMenu className="md:hidden text-2xl" />
+      <GrMenu className="md:hidden text-lg" />
     </Wrapper>
   );
 };

@@ -26,6 +26,9 @@ export default {
           primary: "#FBF8BE",
         },
       },
+      screens: {
+        xs: "448px",
+      },
     },
   },
   plugins: [],
