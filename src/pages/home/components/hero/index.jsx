@@ -1,12 +1,12 @@
-import ConstructionImage1 from "../../../assets/images/construction-uniform-1.jpg";
-import CorporateImage1 from "../../../assets/images/corporate-apparel-1.jpg";
-import FashionImage1 from "../../../assets/images/fashion-uniform-1.jpg";
-import FashionImage2 from "../../../assets/images/fashion-dress-1.jpg";
-import HospitalImage1 from "../../../assets/images/hospital-uniform-1.jpg";
-import RestaurantImage1 from "../../../assets/images/restaurant-uniform-1.jpg";
-import CorporateImage2 from "../../../assets/images/corporate-uniform-2.jpg";
+import ConstructionImage1 from "../../../../assets/images/construction-uniform-1.jpg";
+import CorporateImage1 from "../../../../assets/images/corporate-apparel-1.jpg";
+import FashionImage1 from "../../../../assets/images/fashion-uniform-1.jpg";
+import FashionImage2 from "../../../../assets/images/fashion-dress-1.jpg";
+import HospitalImage1 from "../../../../assets/images/hospital-uniform-1.jpg";
+import RestaurantImage1 from "../../../../assets/images/restaurant-uniform-1.jpg";
+import CorporateImage2 from "../../../../assets/images/corporate-uniform-2.jpg";
 
-import Wrapper from "../../../components/ui/wrapper";
+import Wrapper from "../../../../components/ui/wrapper";
 
 const Hero = () => {
   return (
