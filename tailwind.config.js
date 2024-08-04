@@ -16,7 +16,7 @@ export default {
       },
       colors: {
         orange: {
-          logo: "#F1A74E",
+          logo: "#FF9553",
           xl: "#F4880A",
           lg: "#F08F1D",
           base: "#F4A950",

@@ -1,5 +1,9 @@
 const Wrapper = ({ children, className }) => {
-  return <div className={`px-[3%] ${className}`}>{children}</div>;
+  return (
+    <section className={`w-[90%] max-w-[1800px] mx-auto ${className}`}>
+      {children}
+    </section>
+  );
 };
 
 export default Wrapper;

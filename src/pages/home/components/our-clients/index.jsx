@@ -13,11 +13,11 @@ import Logo9 from "../../../../assets/images/logo9.png";
 
 const OurClients = () => {
   return (
-    <Wrapper className="our-clients mt-[5vw] font-gilroy">
-      <h1 className="text-center font-medium text-5xl mb-[.1em]">
+    <Wrapper id="clients" className="our-clients mt-[5vw] font-roboto">
+      <h1 className="text-center font-medium text-2xl sm:text-4xl md:text-5xl mb-[.1em]">
         Our Clients
       </h1>
-      <p className="font-light text-center text-xl text-gray-400 mb-[1.5em]">
+      <p className="font-normal text-center text-gray-500 leading-4 text-sm sm:text-lg md:text-xl mb-[1.5em]">
         Proudly Serving These Esteemed Clients
       </p>
 

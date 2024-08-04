@@ -1,7 +1,3 @@
-.our-clients p {
-  font-weight: lighter;
-}
-
 .our-clients .marquee {
   display: flex;
   user-select: none;

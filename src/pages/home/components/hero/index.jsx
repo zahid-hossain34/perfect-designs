@@ -10,10 +10,13 @@ import Wrapper from "../../../../components/ui/wrapper";
 
 const Hero = () => {
   return (
-    <Wrapper className="mt-[1vw] w-full flex flex-col-reverse lg:flex-row">
+    <Wrapper
+      id="home"
+      className="mt-[1vw] mb-[4rem] md:mb-[5vw] lg:mb-0 w-full flex flex-col-reverse lg:flex-row"
+    >
       <div className="mb-[-2.2vw] self-end mt-[4vw] xs:mt-[7vw] sm:mt-[4vw] lg:mt-0 h-full w-full lg:w-[75%] flex flex-col justify-end">
-        <h2 className="mx-auto lg:mx-0 text-center lg:text-left font-oswald text-[3.3vw] md:text-[2.8vw] lg:text-[2vw] w-[80%] lg:w-[60%] leading-[1.2em] text-gray-500">
-          <span className="relative after:content-[''] after:absolute after:bottom-[2px] after:left-0 after:h-[3px] md:after:h-[6px] after:w-full after:bg-orange-logo after:z-[-1]">
+        <h2 className="mx-auto lg:mx-0 text-center lg:text-left font-roboto font-light text-[3.5vw] md:text-[3vw] lg:text-[2.5vw] w-[80%] lg:w-[60%] leading-[1.2em] text-gray-400">
+          <span className="relative after:z-[-1] text-black font-normal">
             Perfect Designs
           </span>{" "}
           is your partner of choice for providing made to measure, high quality
