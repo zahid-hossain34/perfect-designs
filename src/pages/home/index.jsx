@@ -3,6 +3,7 @@ import Hero from "./components/hero";
 import AboutUs from "./components/about-us";
 import OurClients from "./components/our-clients";
 import PromotionalMarquee from "./components/promotional-marquee";
+import ImageGallery from "./components/image-gallery";
 import MyAlterations from "./components/my-alterations";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <AboutUs />
       <PromotionalMarquee />
       <MyAlterations />
+      <ImageGallery />
       <OurClients />
     </>
   );

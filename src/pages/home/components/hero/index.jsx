@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <Wrapper
       id="home"
-      className="mt-[1vw] mb-[4rem] md:mb-[5vw] lg:mb-0 w-full flex flex-col-reverse lg:flex-row"
+      className="mt-[1vw] mb-[4rem] md:mb-[5vw] lg:mb-0 flex flex-col-reverse lg:flex-row"
     >
       <div className="mb-[-2.2vw] self-end mt-[4vw] xs:mt-[7vw] sm:mt-[4vw] lg:mt-0 h-full w-full lg:w-[75%] flex flex-col justify-end">
         <h2 className="mx-auto lg:mx-0 text-center lg:text-left font-roboto font-light text-[3.5vw] md:text-[3vw] lg:text-[2.5vw] w-[80%] lg:w-[60%] leading-[1.2em] text-gray-400">
