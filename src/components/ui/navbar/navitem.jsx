@@ -4,10 +4,10 @@ const NavItem = ({ link, title, activeLink, setActiveLink }) => {
   return (
     <li className="relative">
       <NavLink
-        className={`transition-colors durtion-200 after:absolute after:left-0 after:bottom-[-5px] after:content-[''] after:h-[3px] after:bg-orange-logo after:transition-[width] after:duration-200 ${
+        className={`durtion-200 transition-colors after:absolute after:bottom-[-5px] after:left-0 after:h-[3px] after:bg-orange-logo after:transition-[width] after:duration-200 after:content-[''] ${
           activeLink === link
-            ? "after:w-full text-black"
-            : "after:w-0 hover:after:w-full text-gray-400 hover:text-black"
+            ? "text-black after:w-full"
+            : "text-gray-400 after:w-0 hover:text-black hover:after:w-full"
         }`}
         to={link}
         onClick={() => setActiveLink(link)}

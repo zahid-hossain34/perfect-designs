@@ -5,6 +5,7 @@ import OurClients from "./components/our-clients";
 import PromotionalMarquee from "./components/promotional-marquee";
 import ImageGallery from "./components/image-gallery";
 import MyAlterations from "./components/my-alterations";
+import Footer from "./components/footer";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <MyAlterations />
       <ImageGallery />
       <OurClients />
+      <Footer />
     </>
   );
 };

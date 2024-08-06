@@ -14,64 +14,64 @@ import Logo9 from "../../../../assets/images/logo9.png";
 const OurClients = () => {
   return (
     <Wrapper id="clients" className="our-clients mt-[5vw] font-roboto">
-      <h1 className="text-center font-medium text-2xl sm:text-4xl md:text-5xl mb-[.1em]">
+      <h1 className="mb-[.1em] text-center text-2xl font-medium sm:text-4xl md:text-5xl">
         Our Clients
       </h1>
-      <p className="font-normal text-center text-gray-500 leading-4 text-sm sm:text-lg md:text-xl mb-[1.5em]">
+      <p className="mb-[1.5em] text-center text-sm font-normal leading-4 text-gray-500 sm:text-lg md:text-xl">
         Proudly Serving These Esteemed Clients
       </p>
 
       <div className="marquee">
         <div className="marquee-group">
           <div className="image-group">
-            <img src={Logo1} alt="client logo" />
+            <img loading="lazy" src={Logo1} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo3} alt="client logo" />
+            <img loading="lazy" src={Logo3} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo4} alt="client logo" />
+            <img loading="lazy" src={Logo4} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo5} alt="client logo" />
+            <img loading="lazy" src={Logo5} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo6} alt="client logo" />
+            <img loading="lazy" src={Logo6} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo7} alt="client logo" />
+            <img loading="lazy" src={Logo7} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo8} alt="client logo" />
+            <img loading="lazy" src={Logo8} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo9} alt="client logo" />
+            <img loading="lazy" src={Logo9} alt="client logo" />
           </div>
         </div>
         <div className="marquee-group">
           <div className="image-group">
-            <img src={Logo1} alt="client logo" />
+            <img loading="lazy" src={Logo1} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo3} alt="client logo" />
+            <img loading="lazy" src={Logo3} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo4} alt="client logo" />
+            <img loading="lazy" src={Logo4} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo5} alt="client logo" />
+            <img loading="lazy" src={Logo5} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo6} alt="client logo" />
+            <img loading="lazy" src={Logo6} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo7} alt="client logo" />
+            <img loading="lazy" src={Logo7} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo8} alt="client logo" />
+            <img loading="lazy" src={Logo8} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo9} alt="client logo" />
+            <img loading="lazy" src={Logo9} alt="client logo" />
           </div>
         </div>
       </div>
@@ -79,48 +79,48 @@ const OurClients = () => {
       <div className="marquee">
         <div className="marquee-group">
           <div className="image-group">
-            <img src={Logo1} alt="client logo" />
+            <img loading="lazy" src={Logo1} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo3} alt="client logo" />
+            <img loading="lazy" src={Logo3} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo4} alt="client logo" />
+            <img loading="lazy" src={Logo4} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo5} alt="client logo" />
+            <img loading="lazy" src={Logo5} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo6} alt="client logo" />
+            <img loading="lazy" src={Logo6} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo7} alt="client logo" />
+            <img loading="lazy" src={Logo7} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo8} alt="client logo" />
+            <img loading="lazy" src={Logo8} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo9} alt="client logo" />
+            <img loading="lazy" src={Logo9} alt="client logo" />
           </div>
         </div>
         <div className="marquee-group">
           <div className="image-group">
-            <img src={Logo1} alt="client logo" />
+            <img loading="lazy" src={Logo1} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo3} alt="client logo" />
+            <img loading="lazy" src={Logo3} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo4} alt="client logo" />
+            <img loading="lazy" src={Logo4} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo5} alt="client logo" />
+            <img loading="lazy" src={Logo5} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo6} alt="client logo" />
+            <img loading="lazy" src={Logo6} alt="client logo" />
           </div>
           <div className="image-group">
-            <img src={Logo7} alt="client logo" />
+            <img loading="lazy" src={Logo7} alt="client logo" />
           </div>
           <div className="image-group">
             <img src={Logo8} alt="client logo" />

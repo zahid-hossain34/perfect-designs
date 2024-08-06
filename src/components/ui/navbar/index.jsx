@@ -10,7 +10,7 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState("#home");
 
   return (
-    <Wrapper className="py-[.8%] text-sm sm:text-base md:text-lg flex items-center justify-between">
+    <Wrapper className="flex items-center justify-between py-[.8%] text-sm sm:text-base md:text-lg">
       <div className="w-[50%]">
         <img
           src={BrandLogo}
@@ -19,7 +19,7 @@ const Navbar = () => {
         />
       </div>
 
-      <ul className="hidden w-[50%] 2xl:w-[40%] md:flex justify-between items-center text-sm xl:text-base font-medium font-oswald tracking-wider">
+      <ul className="hidden w-[50%] items-center justify-between font-oswald text-sm font-medium tracking-wider md:flex xl:text-base 2xl:w-[40%]">
         <NavItem
           activeLink={activeLink}
           setActiveLink={setActiveLink}
@@ -57,7 +57,7 @@ const Navbar = () => {
         />
       </ul>
 
-      <GrMenu className="md:hidden text-lg" />
+      <GrMenu className="text-lg md:hidden" />
     </Wrapper>
   );
 };

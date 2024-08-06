@@ -4,21 +4,21 @@ import { FiArrowDownRight } from "react-icons/fi";
 const MyAlterations = () => {
   return (
     <Wrapper className="bg-[#E7E7E7]">
-      <div className="px-[1.5rem] py-[1rem] sm:px-[4rem] sm:py-[3rem] xl:px-[8rem] xl:py-[6rem] grid grid-cols-5 font-roboto">
-        <div className="col-start-1 col-span-full xl:col-start-1 xl:col-span-2 h-full flex flex-col justify-between lg:pr-3">
+      <div className="grid grid-cols-5 px-[1.5rem] py-[1rem] font-roboto sm:px-[4rem] sm:py-[3rem] xl:px-[8rem] xl:py-[6rem]">
+        <div className="col-span-full col-start-1 flex h-full flex-col justify-between lg:pr-3 xl:col-span-2 xl:col-start-1">
           <h1 className="text-3xl sm:text-4xl md:text-5xl">
             Everything you need
           </h1>
 
-          <h2 className="w-fit mt-[.5em] leading-5 text-xl sm:text-2xl text-balance">
+          <h2 className="mt-[.5em] w-fit text-balance text-xl leading-5 sm:text-2xl">
             Top Services Requested by Customers
-            <span className="ml-2 sm:ml-3 inline-block align-middle text-2xl sm:text-3xl md:text-4xl">
+            <span className="ml-2 inline-block align-middle text-2xl sm:ml-3 sm:text-3xl md:text-4xl">
               <FiArrowDownRight />
             </span>
           </h2>
         </div>
 
-        <div className="mt-[1.5em] md:mt-[2em] xl:mt-0 lg:pl-2 col-start-1 col-span-full xl:col-start-3 xl:col-span-3 flex flex-wrap xl:justify-end items-center gap-2 sm:gap-4 tex-base sm:text-xl lg:text-2xl xl:border-l border-gray-500 [&_div]:w-full lg:[&_div]:w-[48%] xl:[&_div]:w-fit [&_div]:px-[1.2em] sm:[&_div]:px-[2em] [&_div]:py-[.25em] sm:[&_div]:py-[.5em] [&_div]:rounded-full [&_div]:border [&_div]:border-gray-600 [&_div]:text-nowrap">
+        <div className="tex-base col-span-full col-start-1 mt-[1.5em] flex flex-wrap items-center gap-2 border-gray-500 sm:gap-4 sm:text-xl md:mt-[2em] lg:pl-2 lg:text-2xl xl:col-span-3 xl:col-start-3 xl:mt-0 xl:justify-end xl:border-l [&_div]:w-full [&_div]:text-nowrap [&_div]:rounded-full [&_div]:border [&_div]:border-gray-600 [&_div]:px-[1.2em] [&_div]:py-[.25em] sm:[&_div]:px-[2em] sm:[&_div]:py-[.5em] lg:[&_div]:w-[48%] xl:[&_div]:w-fit">
           <div>Machine Stitch</div>
           <div>Bow Tie</div>
           <div>Body Tightening</div>
