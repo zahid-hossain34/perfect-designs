@@ -68,37 +68,37 @@ const Hero = () => {
         <div className="lg:lex-col flex max-h-full w-[60%] flex-wrap gap-[3%] sm:w-[70%] sm:gap-[2%] md:w-[75%] lg:w-[50%] lg:gap-[.8vw]">
           <img
             loading="lazy"
-            className="w-[25vw] object-cover sm:w-[20vw] md:w-[21vw] lg:w-full"
+            className="w-[25vw] object-cover sm:w-[19vw] md:w-[20vw] lg:w-full"
             src={ConstructionImage1}
             alt=""
           />
           <img
             loading="lazy"
-            className="w-[25vw] object-cover sm:w-[20vw] md:w-[21vw] lg:w-full"
+            className="w-[25vw] object-cover sm:w-[19vw] md:w-[20vw] lg:w-full"
             src={CorporateImage1}
             alt=""
           />
           <img
             loading="lazy"
-            className="w-[25vw] object-cover sm:w-[20vw] md:w-[21vw] lg:w-full"
+            className="w-[25vw] object-cover sm:w-[19vw] md:w-[20vw] lg:w-full"
             src={HospitalImage1}
             alt=""
           />
           <img
             loading="lazy"
-            className="w-[25vw] object-cover sm:w-[20vw] md:w-[21vw] lg:w-full"
+            className="w-[25vw] object-cover sm:w-[19vw] md:w-[20vw] lg:w-full"
             src={RestaurantImage1}
             alt=""
           />
           <img
             loading="lazy"
-            className="w-[25vw] object-cover sm:w-[20vw] md:w-[21vw] lg:w-full"
+            className="w-[25vw] object-cover sm:w-[19vw] md:w-[20vw] lg:w-full"
             src={FashionImage2}
             alt=""
           />
           <img
             loading="lazy"
-            className="w-[25vw] object-cover sm:w-[20vw] md:w-[21vw] lg:hidden lg:w-full"
+            className="w-[25vw] object-cover sm:w-[19vw] md:w-[20vw] lg:hidden lg:w-full"
             src={CorporateImage2}
             alt=""
           />
