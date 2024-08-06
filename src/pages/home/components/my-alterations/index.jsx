@@ -3,7 +3,7 @@ import { FiArrowDownRight } from "react-icons/fi";
 
 const MyAlterations = () => {
   return (
-    <Wrapper className="bg-[#E7E7E7]">
+    <Wrapper id="services" className="bg-[#E7E7E7]">
       <div className="grid grid-cols-5 px-[1.5rem] py-[1rem] font-roboto sm:px-[4rem] sm:py-[3rem] xl:px-[8rem] xl:py-[6rem]">
         <div className="col-span-full col-start-1 flex h-full flex-col justify-between lg:pr-3 xl:col-span-2 xl:col-start-1">
           <h1 className="text-3xl sm:text-4xl md:text-5xl">

@@ -6,7 +6,7 @@ import Map from "./map";
 
 const Footer = () => {
   return (
-    <footer className="mx-auto w-[90%] max-w-[1800px]">
+    <footer id="contact-us" className="mx-auto w-[90%] max-w-[1800px]">
       <Map />
 
       <div className="flex flex-col justify-between gap-3 border-y border-gray-300 py-6 md:flex-row md:py-10">

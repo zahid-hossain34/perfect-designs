@@ -1,3 +1,4 @@
+// Navbar.js
 import { useState } from "react";
 
 import BrandLogo from "../../../assets/images/perfect-design-logo.jpeg";
@@ -23,35 +24,30 @@ const Navbar = () => {
         <NavItem
           activeLink={activeLink}
           setActiveLink={setActiveLink}
-          key="#home"
           link="#home"
           title="Home"
         />
         <NavItem
           activeLink={activeLink}
           setActiveLink={setActiveLink}
-          key="#about-us"
           link="#about-us"
           title="About Us"
         />
         <NavItem
           activeLink={activeLink}
           setActiveLink={setActiveLink}
-          key="#services"
           link="#services"
           title="Services"
         />
         <NavItem
           activeLink={activeLink}
           setActiveLink={setActiveLink}
-          key="#clients"
           link="#clients"
           title="Clients"
         />
         <NavItem
           activeLink={activeLink}
           setActiveLink={setActiveLink}
-          key="#contact-us"
           link="#contact-us"
           title="Contact Us"
         />
