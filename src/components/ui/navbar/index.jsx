@@ -5,13 +5,14 @@ import BrandLogo from "../../../assets/images/perfect-design-logo.jpeg";
 import { GrMenu } from "react-icons/gr";
 
 import Wrapper from "../wrapper";
-import NavItem from "./navitem";
+import Desktopnav from "./desktop-nav";
+import MobileNav from "./mobile-nav";
 
-const Navbar = () => {
+const Navbar = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
   const [activeLink, setActiveLink] = useState("#home");
 
   return (
-    <Wrapper className="flex items-center justify-between py-[.8%] text-sm sm:text-base md:text-lg">
+    <Wrapper className="relative flex items-center justify-between py-[.8%] text-sm sm:text-base md:text-lg">
       <div className="w-[50%]">
         <img
           src={BrandLogo}
@@ -20,40 +21,23 @@ const Navbar = () => {
         />
       </div>
 
-      <ul className="hidden w-[50%] items-center justify-between font-oswald text-sm font-medium tracking-wider md:flex xl:text-base 2xl:w-[40%]">
-        <NavItem
-          activeLink={activeLink}
-          setActiveLink={setActiveLink}
-          link="#home"
-          title="Home"
-        />
-        <NavItem
-          activeLink={activeLink}
-          setActiveLink={setActiveLink}
-          link="#about-us"
-          title="About Us"
-        />
-        <NavItem
-          activeLink={activeLink}
-          setActiveLink={setActiveLink}
-          link="#services"
-          title="Services"
-        />
-        <NavItem
-          activeLink={activeLink}
-          setActiveLink={setActiveLink}
-          link="#clients"
-          title="Clients"
-        />
-        <NavItem
-          activeLink={activeLink}
-          setActiveLink={setActiveLink}
-          link="#contact-us"
-          title="Contact Us"
-        />
-      </ul>
+      {!isMobileNavOpen && (
+        <Desktopnav activeLink={activeLink} setActiveLink={setActiveLink} />
+      )}
 
-      <GrMenu className="text-lg md:hidden" />
+      <MobileNav
+        activeLink={activeLink}
+        setActiveLink={setActiveLink}
+        setIsMobileNavOpen={setIsMobileNavOpen}
+        isMobileNavOpen={isMobileNavOpen}
+      />
+
+      <div
+        className="rounded border border-gray-300 p-1 text-lg transition-colors duration-300 hover:bg-gray-100 focus:bg-gray-200 active:bg-gray-200 lg:hidden"
+        onClick={() => setIsMobileNavOpen(true)}
+      >
+        <GrMenu />
+      </div>
     </Wrapper>
   );
 };

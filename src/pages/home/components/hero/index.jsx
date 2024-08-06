@@ -46,19 +46,19 @@ const Hero = () => {
           />
 
           <div className="font-oswald text-[10px] tracking-wider sm:text-[12px] lg:text-sm">
-            <div className="flex items-center justify-between gap-2 border-b border-gray-200 py-[.5em]">
+            <div className="flex items-start justify-between gap-2 border-b border-gray-200 py-[.5em]">
               <h1>01</h1>
               <h1>CORPORATE APPAREL</h1>
             </div>
-            <div className="flex items-center justify-between gap-2 border-b border-gray-200 py-[.5em]">
+            <div className="flex items-start justify-between gap-2 border-b border-gray-200 py-[.5em]">
               <h1>02</h1>
               <h1>HEALTHCARE UNIFORMS</h1>
             </div>
-            <div className="flex items-center justify-between gap-2 border-b border-gray-200 py-[.5em]">
+            <div className="flex items-start justify-between gap-2 border-b border-gray-200 py-[.5em]">
               <h1>03</h1>
               <h1>CONSTRUCTION UNIFORMS</h1>
             </div>
-            <div className="flex items-center justify-between gap-2 border-b border-gray-200 py-[.5em]">
+            <div className="flex items-start justify-between gap-2 border-b border-gray-200 py-[.5em]">
               <h1>04</h1>
               <h1>RESTAURANT UNIFORMS</h1>
             </div>
