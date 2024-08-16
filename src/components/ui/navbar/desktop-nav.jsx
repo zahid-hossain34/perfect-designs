@@ -2,7 +2,7 @@ import NavItem from "./navitem";
 
 const Desktopnav = ({ activeLink, setActiveLink }) => {
   return (
-    <ul className="hidden w-[50%] items-center justify-between font-roboto text-sm font-medium lg:flex xl:text-base 2xl:w-[40%]">
+    <ul className="mx-auto hidden w-[50%] items-center justify-between font-roboto text-sm font-medium lg:flex xl:text-base 2xl:w-[40%]">
       <NavItem
         activeLink={activeLink}
         setActiveLink={setActiveLink}

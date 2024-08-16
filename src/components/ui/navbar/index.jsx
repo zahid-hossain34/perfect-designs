@@ -4,7 +4,7 @@ import { useState } from "react";
 import BrandLogo from "../../../assets/images/perfect-design-logo.jpeg";
 import { GrMenu } from "react-icons/gr";
 
-import Wrapper from "../wrapper";
+// import Wrapper from "../wrapper";
 import Desktopnav from "./desktop-nav";
 import MobileNav from "./mobile-nav";
 
@@ -12,7 +12,7 @@ const Navbar = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
   const [activeLink, setActiveLink] = useState("#home");
 
   return (
-    <Wrapper className="relative flex items-center justify-between py-[.8%] text-sm sm:text-base md:text-lg">
+    <div className="mx-auto px-[10%] absolute top-0 left-0 z-10 flex items-center justify-between py-[.8%] text-sm sm:text-base md:text-lg bg-transparent">
       <div className="w-[50%]">
         <img
           src={BrandLogo}
@@ -38,7 +38,7 @@ const Navbar = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
       >
         <GrMenu />
       </div>
-    </Wrapper>
+    </div>
   );
 };
 

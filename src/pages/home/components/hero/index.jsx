@@ -1,20 +1,14 @@
-import ConstructionImage1 from "../../../../assets/images/construction-uniform-1.jpg";
-import CorporateImage1 from "../../../../assets/images/corporate-apparel-1.jpg";
-import FashionImage1 from "../../../../assets/images/fashion-uniform-1.jpg";
-import FashionImage2 from "../../../../assets/images/fashion-dress-1.jpg";
-import HospitalImage1 from "../../../../assets/images/hospital-uniform-1.jpg";
-import RestaurantImage1 from "../../../../assets/images/restaurant-uniform-1.jpg";
-import CorporateImage2 from "../../../../assets/images/corporate-uniform-2.jpg";
-
+import HeroSlider from "../../../../components/ui/hero-slider";
 import Wrapper from "../../../../components/ui/wrapper";
+import Navbar from '../../../../components/ui/navbar/index';
 
 const Hero = () => {
   return (
     <Wrapper
       id="home"
-      className="mb-[4rem] mt-[1vw] flex flex-col-reverse md:mb-[5vw] lg:mb-0 lg:flex-row"
+      className="relative mb-[4rem] w-full h-[100vh] md:mb-[5vw] lg:mb-0 lg:flex-row"
     >
-      <div className="mb-[-2.2vw] mt-[4vw] flex h-full w-full flex-col justify-end self-end xs:mt-[7vw] sm:mt-[4vw] lg:mt-0 lg:w-[75%]">
+      {/* <div className="mb-[-2.2vw] mt-[4vw] flex h-full w-full flex-col justify-end self-end xs:mt-[7vw] sm:mt-[4vw] lg:mt-0 lg:w-[75%]">
         <h2 className="mx-auto w-[80%] text-center font-roboto text-[3.5vw] font-light leading-[1.2em] text-gray-400 md:text-[3vw] lg:mx-0 lg:w-[60%] lg:text-left lg:text-[2.5vw]">
           <span className="relative font-normal text-black after:z-[-1]">
             Perfect Designs
@@ -103,7 +97,12 @@ const Hero = () => {
             alt=""
           />
         </div>
+      </div> */}
+      <div>
+      <Navbar />
       </div>
+      <HeroSlider />
+      
     </Wrapper>
   );
 };

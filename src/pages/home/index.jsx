@@ -14,10 +14,10 @@ const Home = () => {
 
   return (
     <>
-      <Navbar
+      {/* <Navbar
         isMobileNavOpen={isMobileNavOpen}
         setIsMobileNavOpen={setIsMobileNavOpen}
-      />
+      /> */}
       <Hero />
       <AboutUs />
       <PromotionalMarquee />
