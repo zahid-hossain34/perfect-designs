@@ -1,71 +1,90 @@
 import Wrapper from "../../../../components/ui/wrapper";
-
-import { FaBinoculars } from "react-icons/fa";
-import { FaEye } from "react-icons/fa";
-import { FaHandshake } from "react-icons/fa6";
+import {
+  FaBinoculars,
+  FaEye,
+  FaHandshake,
+  FaQuoteLeft,
+  FaQuoteRight,
+} from "react-icons/fa";
+import bgImg from "../../../../assets/images/construction-uniform-1.jpg";
+import "./index.css";
 
 const AboutUs = () => {
   return (
     <Wrapper
       id="about-us"
-      className="flex min-h-screen items-center justify-center font-roboto"
+      className="mt-24 flex min-h-screen items-center justify-center font-roboto"
     >
-      <div>
-        <p className="text-sm font-medium text-[#FF9553] md:text-base lg:text-xl">
-          ABOUT US
-        </p>
-
-        <div className="grid grid-cols-3 gap-x-6 gap-y-5 sm:gap-y-8 lg:gap-y-20">
-          <h1 className="lg:5xl col-span-full col-start-1 mt-[.25em] w-[70%] text-2xl leading-[1.1em] sm:col-span-2 sm:w-[60%] sm:text-3xl md:text-4xl xl:text-6xl">
-            Creating Unique Uniform Solutions for Brand Identity
-          </h1>
-          <p className="col-span-full col-start-1 self-end text-sm text-gray-500 sm:col-span-1 sm:col-start-3 sm:text-base md:text-lg lg:text-xl">
-            Perfect Designs began by providing basic uniform solutions to the
-            service industry in the UAE. We&apos;ve grown into a dynamic
-            company, crafting unique identities for businesses that want to
-            stand out and delight their guests and clients.
+      <div className="relative">
+        <div
+          className="parallax-bg absolute left-0 top-0 -z-10 h-full w-full"
+          style={{ backgroundImage: `url(${bgImg})` }}
+        />
+        <div className="parallax-content relative flex flex-col items-center justify-center space-y-4 p-20 text-center lg:space-y-8">
+          <p className="relative font-lucida-calligraphy text-2xl font-bold text-[#FFAE5B] sm:text-3xl md:text-4xl lg:text-5xl">
+            ABOUT US
           </p>
+          <div className="h-[5px] w-[100px] bg-[#FFAE5B] lg:w-[140px]"></div>
+        </div>
 
-          <div className="col-span-full bg-[#E7E7E7] p-[1em] sm:p-[2em] md:col-span-1">
-            <div className="mb-[.8em] flex w-fit items-center justify-center rounded-full border border-gray-300 p-[.5em] text-3xl sm:text-4xl md:text-5xl">
-              <FaEye />
+        <div className="space-y-16 bg-white px-4 pt-10 lg:px-16">
+          <div className="flex flex-col space-y-4 lg:flex-row lg:space-x-44 lg:space-y-0">
+            <div className="">
+              <FaQuoteLeft className="text-[#FFAE5B]" size={50} />
             </div>
-
-            <h1 className="mb-[.4em] text-2xl sm:text-3xl md:text-4xl">
-              Our Mission
-            </h1>
-            <p className="text-lg leading-6 text-gray-500 md:text-xl">
-              To be the leading locally present uniforms differentiator in the
-              U.A.E and grow dynamically alongside the Expo.
+            <p className="px-16 pt-3 text-xs leading-loose text-gray-700 lg:ml-4 lg:px-0 lg:pt-16 lg:text-lg">
+              Perfect Designs started as a company providing a basic uniforms
+              solution to the service industry in UAE. From our humble
+              beginnings, we are now developing into a fast-paced, dynamic
+              company creating identities for all companies that want to
+              differentiate themselves and have happy ambassadors for the
+              <span className="text-[#FFAE5B]"> PERFECT DELIGHT </span>
+              to their important guests and clients.
             </p>
+            <div className="flex justify-end items-end lg:items-start ">
+              <FaQuoteRight className="text-[#FFAE5B]" size={50} />
+            </div>
           </div>
 
-          <div className="col-span-full bg-[#E7E7E7] p-[1em] sm:p-[2em] md:col-span-1">
-            <div className="mb-[.8em] flex w-fit items-center justify-center rounded-full border border-gray-300 p-[.5em] text-3xl sm:text-4xl md:text-5xl">
-              <FaBinoculars />
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-8">
+            <div className="space-y-8 rounded-lg bg-slate-50 p-6 shadow-lg hover:shadow-none">
+              <div className="mb-4 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-teal-400 p-4 text-5xl text-white">
+                <FaEye />
+              </div>
+              <h1 className="mb-2 text-center font-lucida-calligraphy text-2xl font-semibold text-[#FFAE5B]">
+                Our Mission
+              </h1>
+              <p className="text-center text-gray-600">
+                To be the leading locally present uniforms differentiator in the
+                U.A.E and grow dynamically alongside the Expo.
+              </p>
             </div>
 
-            <h1 className="mb-[.4em] text-2xl sm:text-3xl md:text-4xl">
-              Our Vision
-            </h1>
-            <p className="text-lg leading-6 text-gray-500 md:text-xl">
-              To be a partner of choice for our clients and a trend setter for
-              our competitors.
-            </p>
-          </div>
-
-          <div className="col-span-full bg-[#E7E7E7] p-[1em] sm:p-[2em] md:col-span-1">
-            <div className="mb-[.8em] flex w-fit items-center justify-center rounded-full border border-gray-300 p-[.5em] text-3xl sm:text-4xl md:text-5xl">
-              <FaHandshake />
+            <div className="space-y-8 rounded-lg bg-slate-50 p-6 shadow-lg hover:shadow-none">
+              <div className="mb-4 flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-pink-500 p-4 text-5xl text-white">
+                <FaBinoculars />
+              </div>
+              <h1 className="mb-2 text-center font-lucida-calligraphy text-2xl font-semibold text-[#FFAE5B]">
+                Our Vision
+              </h1>
+              <p className="text-center text-gray-600">
+                To be a partner of choice for our clients and a trend setter for
+                our competitors.
+              </p>
             </div>
 
-            <h1 className="mb-[.4em] text-2xl sm:text-3xl md:text-4xl">
-              Our Value
-            </h1>
-            <p className="text-lg leading-6 text-gray-500 md:text-xl">
-              Solution Oriented organization, that provides suggestions at all
-              steps to better the life of your precious uniforms.
-            </p>
+            <div className="space-y-8 rounded-lg bg-slate-50 p-6 shadow-lg hover:shadow-none">
+              <div className="mb-4 flex items-center justify-center rounded-full bg-gradient-to-r from-green-500 to-yellow-400 p-4 text-5xl text-white">
+                <FaHandshake />
+              </div>
+              <h1 className="mb-2 text-center font-lucida-calligraphy text-2xl font-semibold text-[#FFAE5B]">
+                Our Value
+              </h1>
+              <p className="text-center text-gray-600">
+                Solution Oriented organization, that provides suggestions at all
+                steps to better the life of your precious uniforms.
+              </p>
+            </div>
           </div>
         </div>
       </div>

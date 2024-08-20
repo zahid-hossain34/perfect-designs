@@ -12,7 +12,7 @@ const Navbar = ({ isMobileNavOpen, setIsMobileNavOpen }) => {
   const [activeLink, setActiveLink] = useState("#home");
 
   return (
-    <div className="mx-auto px-[10%] absolute top-0 left-0 z-10 flex items-center justify-between py-[.8%] text-sm sm:text-base md:text-lg bg-transparent">
+    <div className="mx-auto px-[10%] shadow-md flex items-center justify-between py-[.8%] text-sm sm:text-base md:text-lg bg-transparent">
       <div className="w-[50%]">
         <img
           src={BrandLogo}

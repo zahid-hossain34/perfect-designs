@@ -1,9 +1,9 @@
 // NavItem.js
-const NavItem = ({ link, title, activeLink, setActiveLink }) => {
+const NavItem = ({ link, title, activeLink, setActiveLink, setIsMobileNavOpen }) => {
   const handleClick = (e) => {
     e.preventDefault();
     setActiveLink(link);
-
+    setIsMobileNavOpen(false);
     const section = document.querySelector(link);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });

@@ -8,17 +8,19 @@ import PromotionalMarquee from "./components/promotional-marquee";
 import ImageGallery from "./components/image-gallery";
 import MyAlterations from "./components/my-alterations";
 import Footer from "./components/footer";
+import NeedToKnow from "./components/need-to-know";
 
 const Home = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
 
   return (
     <>
-      {/* <Navbar
+      <Navbar
         isMobileNavOpen={isMobileNavOpen}
         setIsMobileNavOpen={setIsMobileNavOpen}
-      /> */}
+      />
       <Hero />
+      <NeedToKnow />
       <AboutUs />
       <PromotionalMarquee />
       <MyAlterations />

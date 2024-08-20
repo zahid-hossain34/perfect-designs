@@ -11,9 +11,11 @@ import CorporateImage2 from "../../../assets/images/corporate-uniform-2.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import 'swiper/css/effect-fade';
+import './hero-slider.css'
 
 // import required modules
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 
 const sliderImages = [
   ConstructionImage1,
@@ -33,8 +35,10 @@ export default function HeroSlider() {
         autoplay={{
           delay: 3500,
         }}
-        modules={[Autoplay, Pagination]}
-        className="mySwiper"
+        loop={true}
+        effect={'fade'}
+        modules={[Autoplay, Pagination, EffectFade]}
+        className="heroSwiper"
       >
         {sliderImages.map((img, i) => {
           return (

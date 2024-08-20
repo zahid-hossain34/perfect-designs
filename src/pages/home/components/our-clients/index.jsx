@@ -14,7 +14,7 @@ import Logo9 from "../../../../assets/images/logo9.png";
 const OurClients = () => {
   return (
     <Wrapper id="clients" className="our-clients mt-[5vw] font-roboto">
-      <h1 className="mb-[.1em] text-center text-2xl font-medium sm:text-4xl md:text-5xl">
+      <h1 className="mb-[.1em] text-center text-2xl font-lucida-calligraphy font-medium sm:text-4xl md:text-5xl">
         Our Clients
       </h1>
       <p className="mb-[1.5em] text-center text-sm font-normal leading-4 text-gray-500 sm:text-lg md:text-xl">
